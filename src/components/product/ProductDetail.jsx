@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { axiosEcommerce } from "../../utils/configAxios";
-import SimilarProducts from "./similarProducts";
+import SimilarProducts from "./SimilarProducts";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addProductCart } from "../../store/slices/cart.slice";
