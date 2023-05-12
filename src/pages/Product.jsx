@@ -1,6 +1,5 @@
 import { Link, useParams } from "react-router-dom"
 import ProductDetail from "../components/product/ProductDetail"
-import SimilarProducts from "../components/product/similarProducts"
 
 const Product = () => {
 
