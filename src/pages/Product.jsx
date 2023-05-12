@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom"
+import { useParams } from "react-router-dom"
 import ProductDetail from "../components/product/ProductDetail"
 
 const Product = () => {

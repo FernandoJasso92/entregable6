@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { axiosEcommerce } from '../../utils/configAxios'
 import ProductCard from '../home/ProductCard'
 

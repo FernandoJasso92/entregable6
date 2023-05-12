@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { axiosEcommerce } from "../../utils/configAxios";
 import SimilarProducts from "./similarProducts";
 import { Link } from "react-router-dom";
@@ -109,7 +109,7 @@ const ProductDetail = ({ productId }) => {
       </section>
 
       <button onClickCapture={handleClickAddToCart} className="w-full bg-red-500 py-2 text-white
-       hover:bg-red-600 transition-colors rounded-sm mt-6">
+        hover:bg-red-600 transition-colors rounded-sm mt-6">
         add to cart <i className="bx bx-cart"></i>
       </button>
 
